@@ -39,17 +39,17 @@
          <font>
             <Font name="System Bold" size="13.0" />
          </font></CheckBox>
-      <Label layoutX="230.0" layoutY="35.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="62.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="123.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="150.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="177.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="282.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="309.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="332.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="436.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="230.0" layoutY="463.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
-      <Label layoutX="231.0" layoutY="490.0" prefHeight="27.0" prefWidth="227.0" text="Label" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="35.0" prefHeight="27.0" prefWidth="227.0" text="$labelText1" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="62.0" prefHeight="27.0" prefWidth="227.0" text="$labelText2" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="123.0" prefHeight="27.0" prefWidth="227.0" text="$labelText3" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="150.0" prefHeight="27.0" prefWidth="227.0" text="$labelText4" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="177.0" prefHeight="27.0" prefWidth="227.0" text="$labelText5" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="282.0" prefHeight="27.0" prefWidth="227.0" text="$labelText6" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="309.0" prefHeight="27.0" prefWidth="227.0" text="$labelText7" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="332.0" prefHeight="27.0" prefWidth="227.0" text="$labelText8" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="436.0" prefHeight="27.0" prefWidth="227.0" text="$labelText9" textFill="WHITE" />
+      <Label layoutX="230.0" layoutY="463.0" prefHeight="27.0" prefWidth="227.0" text="$labelText10" textFill="WHITE" />
+      <Label layoutX="231.0" layoutY="490.0" prefHeight="27.0" prefWidth="227.0" text="$labelText11" textFill="WHITE" />
       <JFXButton layoutX="78.0" layoutY="213.0" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
       <JFXButton layoutX="344.0" layoutY="596.0" style="-fx-background-color: #28b463;" text="Continue" textFill="WHITE" />
       <JFXButton layoutX="78.0" layoutY="367.0" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />

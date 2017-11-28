@@ -38,10 +38,28 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void handleButtonAction(ActionEvent event) {
         try{
+           
              Stage stage1 = (Stage) jfxButton.getScene().getWindow();
              stage1.hide();
-             
-             Parent root = FXMLLoader.load(getClass().getResource("Frame2.fxml"));
+             ReadTextFile readFile = new ReadTextFile();
+             final FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Frame2.fxml"));
+
+        fxmlLoader.getNamespace().put("labelText1", readFile.getRecieverInfo().get(0));
+        fxmlLoader.getNamespace().put("labelText2", readFile.getRecieverInfo().get(1));
+        
+        fxmlLoader.getNamespace().put("labelText3", readFile.getParent1Info().get(0));
+        fxmlLoader.getNamespace().put("labelText4", readFile.getParent1Info().get(1));
+        fxmlLoader.getNamespace().put("labelText5", readFile.getParent1Info().get(2));
+        
+        fxmlLoader.getNamespace().put("labelText6", readFile.getParent2Info().get(0));
+        fxmlLoader.getNamespace().put("labelText7", readFile.getParent2Info().get(1));
+        fxmlLoader.getNamespace().put("labelText8", readFile.getParent2Info().get(2));
+        
+        fxmlLoader.getNamespace().put("labelText9", readFile.getGiverInfo().get(0));
+        fxmlLoader.getNamespace().put("labelText10", readFile.getGiverInfo().get(1));
+        fxmlLoader.getNamespace().put("labelText11", readFile.getGiverInfo().get(2));
+
+        final Parent root = fxmlLoader.load();
             
             Scene scene = new Scene(root);
             Stage stage = new Stage();
@@ -49,8 +67,9 @@ public class FXMLDocumentController implements Initializable {
             stage.setAlwaysOnTop(true);
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
         //set Stage boundaries to the lower right corner of the visible bounds of the main screen
-        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 600);
+        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 477);
         stage.setY(0);
+ 
         stage.show();
           } catch(Exception e) {
               e.printStackTrace();
