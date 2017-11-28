@@ -71,7 +71,8 @@ public class FXMLDocumentController implements Initializable {
         //set Stage boundaries to the lower right corner of the visible bounds of the main screen
         stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 477);
         stage.setY(0);
- 
+        stage.setTitle("Retrieve Customer");
+        stage.resizableProperty().setValue(Boolean.FALSE);
         stage.show();
           } catch(Exception e) {
               e.printStackTrace();

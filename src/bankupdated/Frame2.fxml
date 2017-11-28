@@ -47,10 +47,10 @@
       <Label layoutX="230.0" layoutY="463.0" prefHeight="27.0" prefWidth="227.0" text="$labelText10" textFill="WHITE" />
       <Label layoutX="231.0" layoutY="490.0" prefHeight="27.0" prefWidth="227.0" text="$labelText11" textFill="WHITE" />
       <JFXButton layoutX="78.0" layoutY="213.0" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
-      <JFXButton fx:id="btn1" layoutX="345.0" layoutY="616.0" style="-fx-background-color: #28b463;" text="Continue" textFill="WHITE" />
+      <JFXButton fx:id="continueBtn" layoutX="345.0" layoutY="616.0" onAction="#handleContinueButtonAction" style="-fx-background-color: #28b463;" text="Continue" textFill="WHITE" />
       <JFXButton layoutX="78.0" layoutY="367.0" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
       <JFXButton layoutX="78.0" layoutY="523.0" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
-      <JFXButton fx:id="suggestBtn" layoutX="72.0" layoutY="616.0" style="-fx-background-color: #28b463;" text="Suggest Danske Gave Plus" textFill="WHITE" />
+      <JFXButton fx:id="suggestBtn" layoutX="72.0" layoutY="616.0" onAction="#handleSuggestButtonAction" style="-fx-background-color: #28b463;" text="Suggest Danske Gave Plus" textFill="WHITE" />
       <Label layoutX="47.0" layoutY="575.0" text="Selected Account :" textFill="WHITE" />
       <Label fx:id="selectedAccount" layoutX="204.0" layoutY="575.0" prefHeight="27.0" prefWidth="181.0" textFill="WHITE" />
    </children>

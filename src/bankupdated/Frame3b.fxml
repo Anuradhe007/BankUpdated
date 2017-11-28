@@ -9,18 +9,18 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="223.0" prefWidth="477.0" style="-fx-background-color: #003755;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankupdated.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="185.0" prefWidth="477.0" style="-fx-background-color: #003755;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankupdated.Frame3bController">
    <children>
       <Label layoutX="46.0" layoutY="42.0" text="Answer from  : " textFill="WHITE">
          <font>
             <Font size="15.0" />
          </font></Label>
-      <Label layoutX="174.0" layoutY="43.0" prefHeight="15.0" prefWidth="265.0" text="labale name" textFill="WHITE">
+      <Label layoutX="174.0" layoutY="43.0" prefHeight="15.0" prefWidth="265.0" text="$customerName" textFill="WHITE">
          <font>
             <Font size="14.0" />
          </font></Label>
-      <JFXButton layoutX="46.0" layoutY="104.0" prefHeight="25.0" prefWidth="233.0" style="-fx-background-color: #3498db;" text="Proceed​ with​ Danske​ Gave​ Plus" textFill="WHITE" />
-      <JFXButton layoutX="46.0" layoutY="143.0" prefHeight="25.0" prefWidth="233.0" style="-fx-background-color: #3498db;" text="Proceed​ with​ Danske​ Gave​" textFill="WHITE" />
+      <JFXButton fx:id="pAccount" layoutX="46.0" layoutY="104.0" onAction="#handlePlusButtonAction" prefHeight="25.0" prefWidth="233.0" style="-fx-background-color: #3498db;" text="Proceed​ with​ Danske​ Gave​ Plus" textFill="WHITE" />
+      <JFXButton fx:id="nAccount" layoutX="46.0" layoutY="143.0" onAction="#handleNormalButtonAction" prefHeight="25.0" prefWidth="233.0" style="-fx-background-color: #3498db;" text="Proceed​ with​ Danske​ Gave​" textFill="WHITE" />
       <Label layoutX="46.0" layoutY="66.0" text="Account type :" textFill="WHITE">
          <font>
             <Font size="15.0" />

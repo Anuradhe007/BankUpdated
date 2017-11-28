@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="136.0" prefWidth="300.0" style="-fx-background-color: #003755;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankupdated.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126.0" layoutY="102.0" minHeight="16" minWidth="69" textFill="WHITE" />
+      <Label layoutX="4.0" layoutY="47.0" prefHeight="27.0" prefWidth="292.0" text="Customer Selected Danske Gave Account" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
