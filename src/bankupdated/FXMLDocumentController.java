@@ -16,6 +16,7 @@ import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
@@ -41,7 +42,8 @@ public class FXMLDocumentController implements Initializable {
            
              Stage stage1 = (Stage) jfxButton.getScene().getWindow();
              stage1.hide();
-             ReadTextFile readFile = new ReadTextFile();
+             
+        ReadTextFile readFile = new ReadTextFile();
              final FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Frame2.fxml"));
 
         fxmlLoader.getNamespace().put("labelText1", readFile.getRecieverInfo().get(0));
@@ -58,7 +60,7 @@ public class FXMLDocumentController implements Initializable {
         fxmlLoader.getNamespace().put("labelText9", readFile.getGiverInfo().get(0));
         fxmlLoader.getNamespace().put("labelText10", readFile.getGiverInfo().get(1));
         fxmlLoader.getNamespace().put("labelText11", readFile.getGiverInfo().get(2));
-
+        
         final Parent root = fxmlLoader.load();
             
             Scene scene = new Scene(root);
