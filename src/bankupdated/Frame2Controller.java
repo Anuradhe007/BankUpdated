@@ -31,10 +31,22 @@ public class Frame2Controller {
     @FXML
     private Label selectedAccount;
     @FXML
+    private Label giverSignature;
+    @FXML
+    private Label giverSignatureVal;
+    @FXML
+    private Label p1Signature;
+    @FXML
+    private Label p1SignatureVal;
+    @FXML
     private JFXButton suggestBtn;
     public void initialize() {
         ReadTextFile readFile = new ReadTextFile();
         String account = readFile.getCustomerChosenAccount();
+        giverSignature.setText(readFile.getGiverInfo().get(1)+" electronic signature: ");
+        giverSignatureVal.setText(readFile.getGiverInfo().get(3));
+        p1Signature.setText(readFile.getParent1Info().get(1)+" electronic signature: ");
+        p1SignatureVal.setText(readFile.getParent1Info().get(3));
         selectedAccount.setText(account);
         if("Danske Gave Plus".equals(account)) {
             suggestBtn.setVisible(false);

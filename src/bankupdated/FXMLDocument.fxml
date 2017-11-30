@@ -12,7 +12,7 @@
 <AnchorPane id="AnchorPane" prefHeight="136.0" prefWidth="300.0" style="-fx-background-color: #003755;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankupdated.FXMLDocumentController">
     <children>
         <Label fx:id="label" layoutX="126.0" layoutY="102.0" minHeight="16" minWidth="69" textFill="WHITE" />
-      <Label layoutX="29.0" layoutY="26.0" prefHeight="27.0" prefWidth="241.0" text="Customer Request" textFill="WHITE">
+      <Label fx:id="customerReq" layoutX="29.0" layoutY="26.0" prefHeight="27.0" prefWidth="241.0" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font></Label>

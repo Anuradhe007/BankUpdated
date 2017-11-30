@@ -35,7 +35,7 @@ public class BankUpdated extends Application {
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
  
         //set Stage boundaries to the lower right corner of the visible bounds of the main screen
-        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 300);
+        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 310);
         stage.setY(0);
         stage.setTitle("Account Creation Request");
         stage.resizableProperty().setValue(Boolean.FALSE);

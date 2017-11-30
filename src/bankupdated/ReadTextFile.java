@@ -14,7 +14,7 @@ import java.util.List;
 public class ReadTextFile {
     public List<String> getGiverInfo() {
         // The name of the file to open.
-        String fileName = "E:\\GiverInfo.txt";
+        String fileName = "E:\\SOFTWARE_INSTALLATIONS\\danske\\GiverInfo.txt";
 
         // This will reference one line at a time
         String line = null;
@@ -52,7 +52,7 @@ List<String> giverInfo = new ArrayList<>();
     
         public List<String> getRecieverInfo() {
         // The name of the file to open.
-        String fileName = "E:\\RecieverInfo.txt";
+        String fileName = "E:\\SOFTWARE_INSTALLATIONS\\danske\\RecieverInfo.txt";
 
         // This will reference one line at a time
         String line = null;
@@ -90,7 +90,7 @@ List<String> recieverInfo = new ArrayList<>();
         
            public String getCustomerChosenAccount() {
         // The name of the file to open.
-        String fileName = "E:\\SelectedAccount.txt";
+        String fileName = "E:\\SOFTWARE_INSTALLATIONS\\danske\\SelectedAccount.txt";
 
         // This will reference one line at a time
         String line = null;
@@ -128,7 +128,7 @@ List<String> recieverInfo = new ArrayList<>();
            
                   public List<String> getParent1Info() {
         // The name of the file to open.
-        String fileName = "E:\\Parent1Info.txt";
+        String fileName = "E:\\SOFTWARE_INSTALLATIONS\\danske\\Parent1Info.txt";
 
         // This will reference one line at a time
         String line = null;
@@ -166,7 +166,7 @@ List<String> parent1Info = new ArrayList<>();
                   
        public List<String> getParent2Info() {
         // The name of the file to open.
-        String fileName = "E:\\Parent2Info.txt";
+        String fileName = "E:\\SOFTWARE_INSTALLATIONS\\danske\\Parent2Info.txt";
 
         // This will reference one line at a time
         String line = null;

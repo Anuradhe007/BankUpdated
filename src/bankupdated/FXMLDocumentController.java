@@ -32,6 +32,8 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private Label label;
     @FXML
+    private Label customerReq;
+    @FXML
     private Button button;
     @FXML
     private JFXButton jfxButton;
@@ -69,7 +71,7 @@ public class FXMLDocumentController implements Initializable {
             stage.setAlwaysOnTop(true);
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
         //set Stage boundaries to the lower right corner of the visible bounds of the main screen
-        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 477);
+        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 487);
         stage.setY(0);
         stage.setTitle("Retrieve Customer");
         stage.resizableProperty().setValue(Boolean.FALSE);
@@ -81,7 +83,8 @@ public class FXMLDocumentController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        ReadTextFile readTextFile = new ReadTextFile();
+        customerReq.setText("Customer requests "+readTextFile.getCustomerChosenAccount());
     }    
     
 }
