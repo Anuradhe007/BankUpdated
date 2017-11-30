@@ -77,7 +77,7 @@ public class Frame2Controller {
             stage.setAlwaysOnTop(true);
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
         //set Stage boundaries to the lower right corner of the visible bounds of the main screen
-        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 477);
+        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 487);
         stage.setY(0);
         stage.setTitle("Message to Customer");
         stage.resizableProperty().setValue(Boolean.FALSE);
@@ -104,9 +104,8 @@ public class Frame2Controller {
             stage.setAlwaysOnTop(true);
         Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
         //set Stage boundaries to the lower right corner of the visible bounds of the main screen
-        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 300);
+        stage.setX(primaryScreenBounds.getMinX() + primaryScreenBounds.getWidth() - 487);
         stage.setY(0);
-        stage.setTitle("Frame 3");
         stage.resizableProperty().setValue(Boolean.FALSE);
         stage.show();
           } catch(Exception e) {

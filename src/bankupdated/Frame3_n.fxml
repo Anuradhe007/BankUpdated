@@ -9,12 +9,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="136.0" prefWidth="300.0" style="-fx-background-color: #003755;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankupdated.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="136.0" prefWidth="477.0" style="-fx-background-color: #003755;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bankupdated.Frame3nController">
     <children>
-        <Label fx:id="label" layoutX="126.0" layoutY="102.0" minHeight="16" minWidth="69" textFill="WHITE" />
-      <Label layoutX="106.0" layoutY="55.0" prefHeight="27.0" prefWidth="109.0" text="This is Frame 3" textFill="WHITE">
+      <Label fx:id="fr3Msg" layoutX="97.0" layoutY="30.0" prefHeight="27.0" prefWidth="284.0" text="This is Frame 3" textFill="WHITE">
          <font>
             <Font size="16.0" />
          </font></Label>
+      <JFXButton fx:id="okBtn" layoutX="194.0" layoutY="68.0" onAction="#okBtnClick" prefHeight="39.0" prefWidth="89.0" style="-fx-background-color: #28b463;" text="OK" textFill="WHITE" />
     </children>
 </AnchorPane>
