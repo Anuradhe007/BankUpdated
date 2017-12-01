@@ -46,10 +46,10 @@
       <Label layoutX="230.0" layoutY="436.0" prefHeight="27.0" prefWidth="227.0" text="$labelText9" textFill="WHITE" />
       <Label layoutX="230.0" layoutY="463.0" prefHeight="27.0" prefWidth="227.0" text="$labelText10" textFill="WHITE" />
       <Label layoutX="230.0" layoutY="490.0" prefHeight="27.0" prefWidth="227.0" text="$labelText11" textFill="WHITE" />
-      <JFXButton layoutX="78.0" layoutY="213.0" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
+      <JFXButton fx:id="viewP1BankDet" layoutX="78.0" layoutY="213.0" onAction="#viewP1BankDet" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
       <JFXButton fx:id="continueBtn" layoutX="344.0" layoutY="651.0" onAction="#handleContinueButtonAction" prefHeight="27.0" prefWidth="99.0" style="-fx-background-color: #28b463;" text="Continue" textFill="WHITE" />
-      <JFXButton layoutX="78.0" layoutY="367.0" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
-      <JFXButton layoutX="78.0" layoutY="523.0" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
+      <JFXButton fx:id="viewP2BankDet" layoutX="78.0" layoutY="367.0" onAction="#viewP2BankDet" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
+      <JFXButton fx:id="viewGiverBankDet" layoutX="78.0" layoutY="523.0" onAction="#viewGiverBankDet" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #3498db;" text="Retrieve Banking Details" textFill="WHITE" />
       <JFXButton fx:id="suggestBtn" layoutX="78.0" layoutY="651.0" onAction="#handleSuggestButtonAction" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: #28b463;" text="Suggest Danske Gave Plus" textFill="WHITE" />
       <Label layoutX="92.0" layoutY="617.0" text="Selected Account :" textFill="WHITE" />
       <Label fx:id="selectedAccount" layoutX="228.0" layoutY="610.0" prefHeight="27.0" prefWidth="181.0" textFill="WHITE" />

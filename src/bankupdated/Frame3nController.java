@@ -15,28 +15,30 @@ import javafx.stage.Stage;
  * @author Prabhath
  */
 public class Frame3nController {
+
     @FXML
     private Label fr3Msg;
     @FXML
     private JFXButton okBtn;
+
     public void initialize() {
-       ReadTextFile readFile = new ReadTextFile();
+        ReadTextFile readFile = new ReadTextFile();
         String account = readFile.getCustomerChosenAccount();
-        if("Danske Gave Plus".equals(account)) {
+        if ("Danske Gave Plus".equals(account)) {
             fr3Msg.setText("Further task steps have been sent to Danske Forvaltning via Danske Bank’s BPM.");
         }
-        if("Danske Gave".equals(account)) {
+        if ("Danske Gave".equals(account)) {
             fr3Msg.setText("Proceed with account setup.");
         }
-    }  
-    
+    }
+
     @FXML
     public void okBtnClick() {
-        try{
-             Stage stage1 = (Stage) okBtn.getScene().getWindow();
-             stage1.hide();             
-          } catch(Exception e) {
-              e.printStackTrace();
-          }
+        try {
+            Stage stage1 = (Stage) okBtn.getScene().getWindow();
+            stage1.hide();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
